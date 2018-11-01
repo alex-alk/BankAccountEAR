@@ -12,13 +12,7 @@
     <type>ejb</type> 
     <scope>provided</scope>
     </dependency>
-    <dependency> 
-      <groupId>bank</groupId> 
-      <artifactId>BankAccountWar</artifactId> 
-      <version>1</version> 
-      <type>war</type> 
-    </dependency> 
-  </dependencies> 
+   </dependencies> 
   <build> 
   <plugins> 
     <plugin> 
@@ -48,13 +42,6 @@
       <groupId>bank</groupId> 
       <artifactId>BankAccountEJB</artifactId> 
       </ejbModule>
-      <webModule>
-      <groupId>bank</groupId> 
-      <artifactId>BankAccountWar</artifactId>
-      <uri>BankAccountWar-1.war</uri>
-      <bundleFileName>BankAccountWar-1.war</bundleFileName> 
-      <contextRoot>/</contextRoot>
-      </webModule>
       </modules> 
       </configuration> 
      </plugin> 

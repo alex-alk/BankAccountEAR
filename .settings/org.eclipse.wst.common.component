@@ -5,8 +5,5 @@
         <dependent-module archiveName="BankAccountEJB-1.jar" deploy-path="/" handle="module:/resource/BankAccountEJB/BankAccountEJB">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="BankAccountWar-1.war" deploy-path="/" handle="module:/resource/BankAccountWar/BankAccountWar">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
     </wb-module>
 </project-modules>
